@@ -1,133 +1,133 @@
 {
     "techStack": [
         {
-            "id": "1",
+            "id": "0",
             "name": "JavaScript",
             "category": "language",
             "icon": "JavaScriptIcon",
             "website": "https://ecma-international.org/publications-and-standards/standards/ecma-262/"
         },
         {
-            "id": "2",
+            "id": "1",
             "name": "PHP",
             "category": "language",
             "icon": "PHPIcon",
             "website": "https://www.php.net/"
         },
         {
-            "id": "3",
+            "id": "2",
             "name": "React",
             "category": "frontend",
             "icon": "ReactIcon",
             "website": "https://react.dev/"
         },
         {
-            "id": "4",
+            "id": "3",
             "name": "Svelte",
             "category": "frontend",
             "icon": "SvelteIcon",
             "website": "https://svelte.dev/"
         },
         {
-            "id": "5",
+            "id": "4",
             "name": "TailwindCSS",
             "category": "frontend",
             "icon": "TailwindCSSIcon",
             "website": "https://tailwindcss.com//"
         },
         {
-            "id": "6",
+            "id": "5",
             "name": "Bootstrap",
             "category": "frontend",
             "icon": "BootstrapIcon",
             "website": "https://getbootstrap.com/"
         },
         {
-            "id": "7",
+            "id": "6",
             "name": "Figma",
             "category": "frontend",
             "icon": "FigmaIcon",
             "website": "https://www.figma.com/"
         },
         {
-            "id": "8",
+            "id": "7",
             "name": "Node.js",
             "category": "backend",
             "icon": "Node.jsIcon",
             "website": "https://nodejs.org/"
         },
         {
-            "id": "9",
+            "id": "8",
             "name": "Express.js",
             "category": "backend",
             "icon": "Express.jsIcon",
             "website": "https://expressjs.com/"
         },
         {
-            "id": "10",
+            "id": "9",
             "name": "MySQL",
             "category": "backend",
             "icon": "MySQLIcon",
             "website": "https://www.mysql.com//"
         },
         {
-            "id": "11",
+            "id": "10",
             "name": "MongoDB",
             "category": "backend",
             "icon": "MongoDBIcon",
             "website": "https://www.mongodb.com/"
         },
         {
-            "id": "12",
+            "id": "11",
             "name": "Supabase",
             "category": "backend",
             "icon": "SupabaseIcon",
             "website": "https://supabase.com/"
         },
         {
-            "id": "13",
+            "id": "12",
             "name": "Git",
             "category": "devops",
             "icon": "GitIcon",
             "website": "https://git-scm.com/"
         },
         {
-            "id": "14",
+            "id": "13",
             "name": "Github",
             "category": "devops",
             "icon": "GithubeIcon",
             "website": "https://github.com/"
         },
         {
-            "id": "15",
+            "id": "14",
             "name": "Docker",
             "category": "infrastructure",
             "icon": "DockerIcon",
             "website": "https://www.docker.com/"
         },
         {
-            "id": "16",
+            "id": "15",
             "name": "Vercel",
             "category": "infrastructure",
             "icon": "VercelIcon",
             "website": "https://vercel.com/"
         },
         {
-            "id": "17",
+            "id": "16",
             "name": "Netlify",
             "category": "infrastructure",
             "icon": "NetlifyIcon",
             "website": "https://www.netlify.com/"
         },
         {
-            "id": "18",
+            "id": "17",
             "name": "Nginx",
             "category": "infrastructure",
             "icon": "NginxIcon",
             "website": "https://nginx.org/"
         },
         {
-            "id": "19",
+            "id": "18",
             "name": "Apache",
             "category": "infrastructure",
             "icon": "ApacheIcon",

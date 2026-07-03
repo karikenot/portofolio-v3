@@ -3,6 +3,7 @@ import { supabase } from "./supabaseClient";
 import LoadingScreen from "./components/LoadingScreen"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import TechStack from "./components/TechStack";
 
 function App(){
 
@@ -33,6 +34,7 @@ function App(){
     <div className="min-h-screen bg-kari-body text-white">
       <Header />
       <Hero />
+      <TechStack /> 
       <h1>all my projects</h1>
       {projectData.map((item) =>
         <div key={item.id} style={{ border: '1px solid black', margin: '10px' }}>
