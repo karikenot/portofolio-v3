@@ -53,12 +53,12 @@
             "id": "7",
             "name": "Node.js",
             "category": "backend",
-            "icon": "Node.jsIcon",
+            "icon": "NodejsIcon",
             "website": "https://nodejs.org/"
         },
         {
             "id": "8",
-            "name": "Express.js",
+            "name": "Expressjs",
             "category": "backend",
             "icon": "Express.jsIcon",
             "website": "https://expressjs.com/"
@@ -93,9 +93,9 @@
         },
         {
             "id": "13",
-            "name": "Github",
+            "name": "GitHub",
             "category": "devops",
-            "icon": "GithubeIcon",
+            "icon": "GitHubIcon",
             "website": "https://github.com/"
         },
         {
@@ -121,9 +121,9 @@
         },
         {
             "id": "17",
-            "name": "Nginx",
+            "name": "NGINX",
             "category": "infrastructure",
-            "icon": "NginxIcon",
+            "icon": "NGINXIcon",
             "website": "https://nginx.org/"
         },
         {
