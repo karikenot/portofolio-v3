@@ -1,6 +1,8 @@
-import techStack from '../data/techStack.json';
+import data from '../data/techStack.json';
 
-console.log(techStack);
+const categories = ["language", 'frontend', 'backend', 'devops', 'infrastructure']
+
+console.log(data);
 
 export default function TechStack() {
     return(
@@ -10,7 +12,9 @@ export default function TechStack() {
                 <hr className="border-0.5 border-kari-border w-full" />
             </div>
             <div>
-
+                <div>
+                    {data.map}
+                </div>
             </div>
         </div>
     );
