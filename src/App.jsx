@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { supabase } from "./supabaseClient";
 import LoadingScreen from "./components/LoadingScreen"
 import Header from "./components/Header"
+import Hero from "./components/Hero"
 
 function App(){
 
@@ -31,6 +32,7 @@ function App(){
   return (
     <div className="min-h-screen bg-kari-body text-white">
       <Header />
+      <Hero />
       <h1>all my projects</h1>
       {projectData.map((item) =>
         <div key={item.id} style={{ border: '1px solid black', margin: '10px' }}>

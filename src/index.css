@@ -22,6 +22,10 @@
     }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @utility text-glow {
     text-shadow: var(--text-shadow-glow);
 }
