@@ -41,6 +41,97 @@
             "category": "frontend",
             "icon": "BootstrapIcon",
             "website": "https://getbootstrap.com/"
+        },
+        {
+            "id": "7",
+            "name": "Figma",
+            "category": "frontend",
+            "icon": "FigmaIcon",
+            "website": "https://www.figma.com/"
+        },
+        {
+            "id": "8",
+            "name": "Node.js",
+            "category": "backend",
+            "icon": "Node.jsIcon",
+            "website": "https://nodejs.org/"
+        },
+        {
+            "id": "9",
+            "name": "Express.js",
+            "category": "backend",
+            "icon": "Express.jsIcon",
+            "website": "https://expressjs.com/"
+        },
+        {
+            "id": "10",
+            "name": "MySQL",
+            "category": "backend",
+            "icon": "MySQLIcon",
+            "website": "https://www.mysql.com//"
+        },
+        {
+            "id": "11",
+            "name": "MongoDB",
+            "category": "backend",
+            "icon": "MongoDBIcon",
+            "website": "https://www.mongodb.com/"
+        },
+        {
+            "id": "12",
+            "name": "Supabase",
+            "category": "backend",
+            "icon": "SupabaseIcon",
+            "website": "https://supabase.com/"
+        },
+        {
+            "id": "13",
+            "name": "Git",
+            "category": "devops",
+            "icon": "GitIcon",
+            "website": "https://git-scm.com/"
+        },
+        {
+            "id": "14",
+            "name": "Github",
+            "category": "devops",
+            "icon": "GithubeIcon",
+            "website": "https://github.com/"
+        },
+        {
+            "id": "15",
+            "name": "Docker",
+            "category": "infrastructure",
+            "icon": "DockerIcon",
+            "website": "https://www.docker.com/"
+        },
+        {
+            "id": "16",
+            "name": "Vercel",
+            "category": "infrastructure",
+            "icon": "VercelIcon",
+            "website": "https://vercel.com/"
+        },
+        {
+            "id": "17",
+            "name": "Netlify",
+            "category": "infrastructure",
+            "icon": "NetlifyIcon",
+            "website": "https://www.netlify.com/"
+        },
+        {
+            "id": "18",
+            "name": "Nginx",
+            "category": "infrastructure",
+            "icon": "NginxIcon",
+            "website": "https://nginx.org/"
+        },
+        {
+            "id": "19",
+            "name": "Apache",
+            "category": "infrastructure",
+            "icon": "ApacheIcon",
+            "website": "https://httpd.apache.org/"
         }
     ]
 }
