@@ -4,7 +4,9 @@
 @theme {
     --color-kari-body: #0d1117;
     --color-kari-accent: #010409;
+    --color-kari-button: #212830;
     --color-kari-border: #3d444d;
+    --color-kari-button-hover: #262c36;
     --font-sen: "Sen", sans-serif;
     --text-shadow-glow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3);
     @keyframes slide-down {

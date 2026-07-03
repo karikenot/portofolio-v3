@@ -1,0 +1,46 @@
+{
+    "techStack": [
+        {
+            "id": "1",
+            "name": "JavaScript",
+            "category": "language",
+            "icon": "JavaScriptIcon",
+            "website": "https://ecma-international.org/publications-and-standards/standards/ecma-262/"
+        },
+        {
+            "id": "2",
+            "name": "PHP",
+            "category": "language",
+            "icon": "PHPIcon",
+            "website": "https://www.php.net/"
+        },
+        {
+            "id": "3",
+            "name": "React",
+            "category": "frontend",
+            "icon": "ReactIcon",
+            "website": "https://react.dev/"
+        },
+        {
+            "id": "4",
+            "name": "Svelte",
+            "category": "frontend",
+            "icon": "SvelteIcon",
+            "website": "https://svelte.dev/"
+        },
+        {
+            "id": "5",
+            "name": "TailwindCSS",
+            "category": "frontend",
+            "icon": "TailwindCSSIcon",
+            "website": "https://tailwindcss.com//"
+        },
+        {
+            "id": "6",
+            "name": "Bootstrap",
+            "category": "frontend",
+            "icon": "BootstrapIcon",
+            "website": "https://getbootstrap.com/"
+        }
+    ]
+}
