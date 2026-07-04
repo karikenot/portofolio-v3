@@ -7,8 +7,14 @@ export default function TechStack() {
                 <h2 className="font-semibold text-xl">stuff i know, or u call it techstack</h2>
                 <hr className="border-0.5 border-kari-border w-full" />
             </div>
-            <div className="grid grid-cols-4">
-                <StackCategory name="lang" category="language"/>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+                <div className="flex flex-col gap-2">
+                    <StackCategory name="languanges" category="language"/>
+                    <StackCategory name="devops" category="devops"/>
+                </div>
+                <StackCategory name="frontend stuff" category="frontend"/>
+                <StackCategory name="backend stuff" category="backend"/>
+                <StackCategory name="intrastructure" category="infrastructure"/>
             </div>
         </div>
     );

@@ -1,4 +1,4 @@
-import { GithubIcon, XIcon, InstagramIcon } from "./Icons";
+import { GitHubIcon, XIcon, InstagramIcon } from "./Icons";
 
 export default function Header() {
     return(
@@ -6,7 +6,7 @@ export default function Header() {
             <h1 className="font-bold text-2xl">hi im kari :3</h1>
             <nav className="flex gap-6">
                 <a href="https://github.com/karikenot" className="flex gap-3 duration-250 ease-in-out hover:-translate-y-1 hover:text-gray-200 hover:text-glow">
-                    <GithubIcon />
+                    <GitHubIcon />
                     <p className="hidden md:block">karikenot</p>
                 </a>
                 <a href="https://x.com/karikenot" className="flex gap-3 duration-250 ease-in-out hover:-translate-y-1 hover:text-gray-200 hover:text-glow">

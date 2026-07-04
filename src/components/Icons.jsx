@@ -1,4 +1,4 @@
-export const GithubIcon = (props) => (
+export const GitHubIcon = (props) => (
     <svg 
     role="img" 
     viewBox="0 0 24 24" 
