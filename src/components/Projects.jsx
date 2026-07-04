@@ -2,27 +2,7 @@ import { useEffect, useState } from "react";
 import { supabase } from "../utils/supabaseClient";
 import ProjectCard from "./ProjectCard";
 
-export default function Projects() {
-
-    const [projects, setProjects] = useState([]);
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        async function fetchProjects() {
-            setLoading(true);
-            const { data, error } = await supabase
-                .from('projects')
-                .select('*');
-
-            if (error) {
-                console.error("ERROR MESSAGE!! PLEASE READ:", error)
-            } else {
-                setProjects(data || [])
-            }
-            setLoading(false);
-        }
-        fetchProjects();
-        }, []);
+export default function Projects({ projects }) {
 
     return(
         <div className="bg-kari-body flex flex-col border border-kari-border duration-250 ease-in-out m-4 md:m-10 p-4 rounded-2xl justify-between items-center gap-8 animate-slide-down">
