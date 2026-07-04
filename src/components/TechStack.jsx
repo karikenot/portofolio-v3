@@ -1,4 +1,4 @@
-import { getTechByCategory } from "../utils/filterTech";
+import StackCategory from "./StackCategory";
 
 export default function TechStack() {
     return(
@@ -8,38 +8,7 @@ export default function TechStack() {
                 <hr className="border-0.5 border-kari-border w-full" />
             </div>
             <div className="grid grid-cols-4">
-                <div>
-                    <h3>languages</h3>
-                    {getTechByCategory('language').map(item => (
-                        <div key={item.id}>
-                            {item.name}
-                        </div>
-                    ))}
-                </div>
-                <div>
-                    <h3>frontend</h3>
-                    {getTechByCategory('frontend').map(item => (
-                        <div key={item.id}>
-                            {item.name}
-                        </div>
-                    ))}
-                </div>
-                <div>
-                    <h3>backend</h3>
-                    {getTechByCategory('backend').map(item => (
-                        <div key={item.id}>
-                            {item.name}
-                        </div>
-                    ))}
-                </div>
-                <div>
-                    <h3>infrastructure</h3>
-                    {getTechByCategory('infrastructure').map(item => (
-                        <div key={item.id}>
-                            {item.name}
-                        </div>
-                    ))}
-                </div>
+                <StackCategory name="lang" category="language"/>
             </div>
         </div>
     );
