@@ -10,7 +10,7 @@ export default function Projects({ projects }) {
                 <h2 className="font-semibold text-xl">things i made</h2>
                 <hr className="border-0.5 border-kari-border w-full" />
             </div>
-            <div className="w-full grid grid-cols-2 gap-2">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-2">
                 {projects.map((item) => 
                     <ProjectCard 
                     name={item.name}
