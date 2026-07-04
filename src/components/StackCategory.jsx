@@ -11,7 +11,7 @@ export default function StackCategory(props){
                     
                     return(
                         <div key={item.id} className="flex w-full justify-center items-center text-center flex-col">
-                            <a href={item.website} className="w-full flex flex-col items-center justify-center p-2 border duration-250 border-kari-border hover:bg-kari-button hover:scale-105 rounded hover:text-glow">
+                            <a href={item.website} target="_blank" className="w-full flex flex-col items-center justify-center p-2 border duration-250 border-kari-border hover:bg-kari-button hover:scale-105 rounded hover:text-glow">
                                 {Icons ? <Icons width="30" /> : null}
                                 <p className="font-light">{item.name}</p>
                             </a>
