@@ -1,5 +1,5 @@
 import { Button } from "./Button";
-import { GithubIcon, EmailIcon } from "./Icons";
+import { GitHubIcon, EmailIcon } from "./Icons";
 
 export default function Hero() {
     return(
@@ -7,7 +7,7 @@ export default function Hero() {
             <div className="flex flex-col gap-6 justify-center">
                 <h1 className="text-4xl font-bold duration-250 hover:text-glow hover:scale-105">not relly good progrmr</h1>
                 <div className="flex gap-4 justify-start md:justify-center flex-col md:flex-row">
-                    <Button href="https://github.com/karikenot" name={[<GithubIcon width="20"/>, <p>see guhitb</p>]} />
+                    <Button href="https://github.com/karikenot" name={[<GitHubIcon width="20"/>, <p>see guhitb</p>]} />
                     <Button href="mailto:karikenot@gmail.com" name={[<EmailIcon width="20"/>, <p>emeil me</p>]} />
                 </div>
             </div>
