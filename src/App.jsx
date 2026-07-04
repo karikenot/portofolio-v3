@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App(){
   const [ isLoading, setIsLoading ] = useState(true);
@@ -36,6 +37,7 @@ function App(){
       <Hero />
       <TechStack /> 
       <Projects projects={projects}/>
+      <Footer />
     </div>
   )
 }
